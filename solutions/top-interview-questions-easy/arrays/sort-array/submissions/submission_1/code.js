@@ -15,3 +15,5 @@ var sortArray = function(nums) {
     }
     return nums;
 };
+
+module.exports = sortArray;

@@ -17,3 +17,5 @@ var removeDuplicates = function(nums) {
     }
     return result;
 };
+
+module.exports = removeDuplicates;

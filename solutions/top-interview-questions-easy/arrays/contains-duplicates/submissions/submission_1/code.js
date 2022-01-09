@@ -13,3 +13,5 @@
     
     return false;
 };
+
+module.exports = containsDuplicate;
