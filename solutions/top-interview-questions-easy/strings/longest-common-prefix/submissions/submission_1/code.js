@@ -3,10 +3,9 @@
  * @return {string}
  */
  var longestCommonPrefix = function(strs) {
-    const minLength = Math.min(...strs.map(x=>x.length));
     let res = "";
     
-    for (let i=0;i<minLength;i++){
+    for (let i=0;i<strs[0].length;i++){
         const tempRes = res+strs[0][i];
         
         for (let j=1;j<strs.length;j++){
