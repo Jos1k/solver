@@ -1,4 +1,4 @@
-const duplicateZeros = require("./submission_2/code");
+const duplicateZeros = require("./submission_1/code");
 
 let input = [0,4,1,0,0,8,0,0,3];
 
